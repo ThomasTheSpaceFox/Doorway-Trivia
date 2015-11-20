@@ -1,0 +1,6 @@
+these .triv files were found:
+sample.triv
+
+enter name of valid .triv file
+only type .triv files found above
+triv files should be in TRIV directory in the script's directory

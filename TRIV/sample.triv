@@ -1,0 +1,16 @@
+QUIZ-Q
+Q1: name of bob
+A: bob
+B: Sam
+C: dude
+-A
+A
+END-QUIZ-Q
+QUIZ-Q
+Q2: linux is a:
+A: An operating system
+B: A kernel
+-A
+B
+END-QUIZ-Q
+END
