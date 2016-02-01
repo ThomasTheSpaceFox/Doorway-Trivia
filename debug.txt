@@ -1,0 +1,4 @@
+starting execution
+triv program to be executed:
+/usr/local/gitsend/Doorway-Trivia/TRIV/crashtest.triv
+no errors detected

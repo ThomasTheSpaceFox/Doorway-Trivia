@@ -1,4 +1,1 @@
 
-Q2: linux is a:
-A: An operating system
-B: A kernel

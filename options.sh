@@ -7,6 +7,9 @@ export DIALOG='
     <text>
       <label>"          Doorway Trivia options menu          "</label>
     </text>
+    <text>
+      <label>"terminal emulator to use."</label>
+    </text>
     <entry>
       <variable>TERM</variable>
       <input file>"'$WHEREAMI'/config.TERM.txt"</input>

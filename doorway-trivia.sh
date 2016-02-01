@@ -9,7 +9,7 @@ export DIALOG='
       <input file>'$WHEREAMI'/TITLE.png</input>
     </pixmap>
     <text>
-      <label>"          Doorway Trivia v1.2 main menu          "</label>
+      <label>"          Doorway Trivia v1.2.1 main menu          "</label>
     </text>
     <button>
       <label>settings</label>
@@ -19,6 +19,10 @@ export DIALOG='
     <button>
       <label>about</label>
       <action>'$WHEREAMI'/about.sh</action>
+    </button>
+    <button>
+      <label>play</label>
+      <action>'$WHEREAMI'/choose2.sh</action>
     </button>
     <text>
       <label>""</label>
@@ -37,7 +41,6 @@ done
 IFS=$I
 
 if [ "$EXIT" = "OK" ]; then
-  $TERM --title "Doorway Trivia" -e "$WHEREAMI/DT-ENG.sh"
   echo ""
 else
   echo ""
